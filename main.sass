@@ -1,0 +1,46 @@
+body 
+  margin: 0
+  padding: 0
+  user-select: none
+
+.container
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+  width: 100%
+  background-color: cyan
+
+.window
+  background-color: #e6e6e6
+  border: 2px solid #ccc
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 25px
+  position: relative
+  .question
+    margin-bottom: 15px
+  .img-container
+    width: 100px
+    margin-bottom: 10px
+    img
+      object-fit: cover
+      width: 100%
+      height: auto
+  .wrapper
+    width: 60%
+    display: flex
+    justify-content: space-between
+    .no
+      position: absolute
+      right: 70px
+      width: 50px
+      height: 30px
+    .answer
+      border: 2px solid #6d6d6d
+      background: #000
+      color: #fff
+      outline: none
+      cursor: pointer
+      padding: 5px 10px
